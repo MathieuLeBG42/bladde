@@ -1,0 +1,38 @@
+{
+  "name": "bladee",
+  "version": "1.0.0",
+  "description": "Bot de Newgy et donc super cool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CassandraSpruit/PotatoSaladBot.git"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot"
+  ],
+  "author": "Newgy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CassandraSpruit/PotatoSaladBot/issues"
+  },
+  "homepage": "https://github.com/CassandraSpruit/PotatoSaladBot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "@cspruit/serendipity": "^1.0.2",
+    "@keyv/mysql": "^1.1.4",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "keyv": "^4.0.0",
+    "moment": "^2.24.0",
+    "node-opus": "^0.3.3",
+    "ytdl-core": "^1.0.5"
+  }
+}
